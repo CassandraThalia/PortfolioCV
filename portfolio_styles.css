@@ -5,11 +5,6 @@ html {
     scrollbar-width: none;  /* Firefox */
     scroll-behavior: smooth;
     background-color: #F3F2DC;
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-size: 50% 100%;
-    background-position: top left;
-    /* background: linear-gradient(#fffef1 #b02d7e83 #038ba39e) */
 }
 
 html, body{
@@ -51,36 +46,6 @@ transition-duration: .5s;
     padding-right: 40px;
 }
 
-@keyframes moveDown {
-    0%{top: -300px;}
-    100%{top: 200px;}
-}
-
-.hideme{
-    opacity:0;
-}
-
-h1{
-    font-family: 'Josefin Slab', serif;
-    font-size: 4.8em;
-    line-height: 1.2em;
-    
-}
-
-h2{
-    font-family: 'Josefin Slab', serif;
-    font-size: 1.8em;
-    line-height: 1.2em;
-    letter-spacing: .2em;
-}
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
-    line-height: 1.2em;
-    margin-top: 30px;
-}
-
 .bold {
     font-weight: 600;
 }
@@ -89,110 +54,10 @@ h3{
     font-style: italic;
 }
 
-#halfScreen {
-    position: fixed;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #93AEB0;
+.hideme{
+    opacity:0;
 }
 
-.center {
-    display: block;
-    margin: auto;
-    margin-top: 250px;
-    width: 50%;
-}
-
-.mainCont {
-    display: block;
-    position: absolute;
-    top: 250px;
-    width: 450px;
-    margin-left: 10%;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 2.2em;
-}
-
-.mainCont p {
-    font-size: 1em;
-    padding-right: 10%;
-    letter-spacing: .05em;
-}
-
-#intro li {
-    float: left;
-}
-
-#intro li a {
-display: block;
-color: #333;
-margin-top: 30px;
-text-decoration: none;
-font-size: .9em;  
-font-family: 'Montserrat', sans-serif;
-letter-spacing: .05em;
-}
-
-#fullCV {
-    top: 750px;
-}
-
-#aboutBreak {
-    top: 1000px;
-}
-
-#about {
-    top: 1200px;
-    padding-bottom: 100px;
-}
-
-#about h2, #contact h2 {
-    padding-bottom: 30px;
-}
-
-#skillsBreak{
-    top: 1800px;
-}
-
-#skills {
-    top: 2000px;
-    letter-spacing: .05em;
-}
-
-#skills h4, #work h4, #school h4 {
-    padding-top: 30px;
-    font-weight: 600;
-}
-
-#skills li{
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-#lastLi {
-    padding-bottom: 100px;
-}
-
-#work {
-    top: 3500px;
-    letter-spacing: .05em;
-}
-
-#school {
-    top: 4600px;
-    letter-spacing: .05em;
-}
-
-#contact {
-    top: 5700px;
-    letter-spacing: .05em;
-}
-
-#contact a{
-    color: black;
-}
-
-#lastLast {
-    padding-bottom: 250px;
+.hidemeless{
+    opacity:0;
 }

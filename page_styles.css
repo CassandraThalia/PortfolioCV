@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+html {
+    background-color: #93AEB0;
+}
+
+.mainCont {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: .2em;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: .2em;
+}
+
+#messageRedactor, #sockBuilder, #researchReport, #criticalIssues{
+    padding-top: 200px;
+}
+
+h2, h3 {
+    color: #F3F2DC;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+iframe {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#sockBuilder p, #researchReport p {
+    margin-right: auto;
+    margin-left: auto;
+    width: 450px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F3F2DC;
+    font-size: .8em;
+    font-weight: 600;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    letter-spacing: .05em;
+    line-height: 1.2em;
+}
