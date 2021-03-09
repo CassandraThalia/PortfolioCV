@@ -60,6 +60,10 @@ transition-duration: .5s;
     100%{top: 200px;}
 }
 
+.hideme{
+    opacity:0;
+}
+
 h1{
     font-family: 'Josefin Slab', serif;
     font-size: 4.8em;
@@ -131,10 +135,11 @@ margin-top: 30px;
 text-decoration: none;
 font-size: .9em;  
 font-family: 'Montserrat', sans-serif;
+letter-spacing: .05em;
 }
 
 #fullCV {
-    top: 800px;
+    top: 750px;
 }
 
 #about {
@@ -147,7 +152,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #skills {
-    top: 2200px;
+    top: 2000px;
     letter-spacing: .05em;
 }
 
@@ -166,18 +171,22 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #work {
-    top: 3900px;
+    top: 3500px;
     letter-spacing: .05em;
 }
 
 #school {
-    top: 5200px;
+    top: 4600px;
     letter-spacing: .05em;
 }
 
 #contact {
-    top: 6450px;
+    top: 5700px;
     letter-spacing: .05em;
+}
+
+#contact a{
+    color: black;
 }
 
 #lastLast {
