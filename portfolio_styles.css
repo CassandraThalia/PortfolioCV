@@ -142,7 +142,7 @@ font-family: 'Montserrat', sans-serif;
     padding-bottom: 100px;
 }
 
-#about h2 {
+#about h2, #contact h2 {
     padding-bottom: 30px;
 }
 
@@ -151,7 +151,7 @@ font-family: 'Montserrat', sans-serif;
     letter-spacing: .05em;
 }
 
-#skills h4, #work h4 {
+#skills h4, #work h4, #school h4 {
     padding-top: 30px;
     font-weight: 600;
 }
@@ -167,5 +167,19 @@ font-family: 'Montserrat', sans-serif;
 
 #work {
     top: 3900px;
+    letter-spacing: .05em;
 }
 
+#school {
+    top: 5200px;
+    letter-spacing: .05em;
+}
+
+#contact {
+    top: 6450px;
+    letter-spacing: .05em;
+}
+
+#lastLast {
+    padding-bottom: 250px;
+}
