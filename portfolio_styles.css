@@ -29,19 +29,15 @@ html, body{
     box-shadow: 0px 5px 10px#333;
 }
 
-#navbar ul {
-    margin-right: 50%;
-}
-
 #navbar li {
-    float: right;
+    float: left;
 }
 
 #navbar li a {
 display: block;
 color: #333;
 text-align: center;
-padding: 20px 30px;
+padding: 20px 35px;
 text-decoration: none;
 font-size: .9em;    
 
@@ -142,6 +138,10 @@ letter-spacing: .05em;
     top: 750px;
 }
 
+#aboutBreak {
+    top: 1000px;
+}
+
 #about {
     top: 1200px;
     padding-bottom: 100px;
@@ -149,6 +149,10 @@ letter-spacing: .05em;
 
 #about h2, #contact h2 {
     padding-bottom: 30px;
+}
+
+#skillsBreak{
+    top: 1800px;
 }
 
 #skills {
