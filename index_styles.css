@@ -141,21 +141,20 @@ letter-spacing: .05em;
 #flower1 {
     position: relative;
     width: 80px;
-    left: 250px;
+    left: 20%;
     top: 3250px;
 }
 
 #flower2 {
     position: relative;
     width: 60px;
-    left: 320px;
+    left: 25%;
     top: 1700px;
-    /* transform: rotate(-20deg) */
 }
 
 #leaf2 {
     position: relative;
-    left: 230px;
+    left: 15%;
     top: 4350px;
     width: 60px;
     transform: rotate(40deg);
