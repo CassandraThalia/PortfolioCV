@@ -40,7 +40,7 @@ h3{
 .mainCont {
     display: block;
     position: absolute;
-    top: 250px;
+    top: 100px;
     width: 450px;
     margin-left: 10%;
     font-family: 'Montserrat', sans-serif;
@@ -68,7 +68,7 @@ letter-spacing: .05em;
 }
 
 #fullCV {
-    top: 750px;
+    top: 800px;
 }
 
 #aboutBreak {
@@ -128,4 +128,32 @@ letter-spacing: .05em;
 
 #lastLast {
     padding-bottom: 300px;
+}
+
+#leaf1 {
+    position: relative;
+    left: 360px;
+    top: 350px;
+    width: 100px;
+    transform: rotate(30deg)
+}
+
+#flower1 {
+    position: relative;
+    width: 100px;
+    left: 50px;
+}
+
+#leaf2 {
+    position: relative;
+    left: 300px;
+    top: -250px;
+    width: 80px;
+}
+
+#bigflower {
+    position: relative;
+    left: 280px;
+    top: -200px;
+    width: 200px;
 }

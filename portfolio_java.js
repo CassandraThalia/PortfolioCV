@@ -1,21 +1,10 @@
-
-// function showElement(p_element) {
-//     var element = document.getElementById(p_element);
-//     if (element.style.display === "block"){
-//         element.style.display = "none";
-//     }
-//     else {
-//         element.style.display = "block";
-//     }
-// }
-
 $(window).on("load",function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
     $(".hideme").each(function() {
         /* Check the location of each desired element */
         var objectTop = $(this).offset().top;
         /* If the element is completely within bounds of the window, fade it in */
-        if (objectTop < windowBottom) { //object comes into view (scrolling down)
+        if (objectTop < windowBottom) { 
           if ($(this).css("opacity")==0) {$(this).fadeTo(1500,1);}
         }
       });
@@ -58,5 +47,6 @@ $(document).ready(function(){
     $('.mainCont').fadeIn(1500);
     }, 1000);
 });
+
 
 
