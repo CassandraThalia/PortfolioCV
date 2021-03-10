@@ -42,10 +42,8 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-    setTimeout(function() {
     /*! Fades in page on load */
     $('.mainCont').fadeIn(1500);
-    }, 1000);
 });
 
 
