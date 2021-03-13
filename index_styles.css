@@ -168,13 +168,57 @@ letter-spacing: .05em;
     transform: rotate(20deg);
 }
 
-@media (max-width: 576px) { 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #halfScreen {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) { 
     #halfScreen {
         display: none;
     }
 
     #lastlast {
         padding-bottom: 30px;
+    }
+
+    .mainCont {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    #fullCV {
+        top: 700px;
+    }
+
+    img {
+        visibility: hidden;
+    }
+
+    #work {
+        top: 3800px;
+        letter-spacing: .05em;
+    }
+    
+    #school {
+        top: 4900px;
+        letter-spacing: .05em;
+    }
+    
+    #contact {
+        top: 5900px;
+        letter-spacing: .05em;
     }
 
 }
