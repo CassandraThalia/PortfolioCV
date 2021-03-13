@@ -45,6 +45,7 @@ h2{
     line-height: 1.2em;
     letter-spacing: .2em;
     padding-top: 60px;
+    color: #F3F2DC;
 }
 
 h3{
@@ -55,14 +56,11 @@ h3{
     letter-spacing: .2em;
     padding-top: 10px;
     padding-bottom: 30px;
+    color: #F3F2DC;
 }
 
 #messageRedactor, #sockBuilder, #researchReport, #criticalIssues{
     padding-top: 400px;
-}
-
-h2, h3 {
-    color: #F3F2DC;
 }
 
 iframe {
@@ -88,7 +86,7 @@ iframe {
 }
 
 #leafimg {
-    margin-top: 360px;
+    margin-top: 420px;
     width: 300px;
     display: block;
     margin-left: auto;
@@ -96,7 +94,7 @@ iframe {
 }
 
 #leafimg2 {
-    margin-top: 300px;
+    margin-top: 420px;
     width: 300px;
     display: block;
     margin-left: auto;
