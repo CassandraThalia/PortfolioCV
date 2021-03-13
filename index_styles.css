@@ -167,3 +167,14 @@ letter-spacing: .05em;
     width: 160px;
     transform: rotate(20deg);
 }
+
+@media (max-width: 576px) { 
+    #halfScreen {
+        display: none;
+    }
+
+    #lastlast {
+        padding-bottom: 30px;
+    }
+
+}

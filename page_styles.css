@@ -100,3 +100,15 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 576px) { 
+    
+    iframe {
+        width: 100%;
+    }
+
+    #sockBuilder p, #researchReport p {
+        width: 100%;
+    }
+
+}

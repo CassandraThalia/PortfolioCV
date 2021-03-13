@@ -46,5 +46,9 @@ $(document).ready(function(){
     $('.mainCont').fadeIn(1500);
 });
 
+document.getElementById("mobileNavBtn").onclick = function() {buttonFunction()};
+function buttonFunction() {
+    document.getElementById("navbar").style.display = "block";
+}
 
 
