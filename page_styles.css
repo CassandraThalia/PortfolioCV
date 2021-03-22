@@ -23,6 +23,7 @@ html {
 }
 
 #pagenav li {
+    display: inline;
     padding-top: 30px;
     padding-bottom: 30px;
     transition-property: padding-top, padding-bottom;
@@ -59,7 +60,7 @@ h3{
     color: #F3F2DC;
 }
 
-#messageRedactor, #sockBuilder, #researchReport, #criticalIssues{
+#messageRedactor, #sockBuilder, #researchReport, #criticalIssues, #sql, #java{
     padding-top: 400px;
 }
 
@@ -93,12 +94,16 @@ iframe {
     margin-right: auto;
 }
 
-#leafimg2 {
-    margin-top: 420px;
-    width: 300px;
-    display: block;
-    margin-left: auto;
+#sqlCode {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 900px;
+    height: 800px;
+    overflow: scroll;
     margin-right: auto;
+    margin-left: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 @media (max-width: 576px) { 
@@ -112,3 +117,4 @@ iframe {
     }
 
 }
+
